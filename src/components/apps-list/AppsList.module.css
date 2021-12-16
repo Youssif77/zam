@@ -3,7 +3,7 @@
   width: 100%;
   justify-content: space-between;
   margin: 4rem auto;
-  gap: 6%;
+  gap: 2%;
 }
 
 @media screen and (max-width: 1024px) {
