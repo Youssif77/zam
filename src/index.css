@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Kaushan+Script&display=swap");
 
 :root {
-  --font-family: "Manrope", sans-serif;
+  --font-family: "Cairo", sans-serif;
 
   --color-primary: #8d5da7;
   --color-secondary: #fdb515;

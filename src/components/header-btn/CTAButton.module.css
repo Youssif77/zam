@@ -1,0 +1,22 @@
+.ctaBtn {
+  display: flex;
+  align-items: center;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0.6rem 5rem;
+  cursor: pointer;
+}
+
+.ctaBtn p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 34px;
+  margin-left: 10px;
+}
+
+.ctaBtn svg {
+  font-size: 18px;
+}
