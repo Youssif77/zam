@@ -30,7 +30,11 @@
 .features__item {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.features__item:last-of-type {
+  margin-bottom: 3rem;
 }
 
 .features__item:last-child {
