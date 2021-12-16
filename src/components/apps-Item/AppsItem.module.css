@@ -1,0 +1,67 @@
+.appsitem {
+  display: flex;
+  flex-basis: 25%;
+}
+
+.appsitem__logo {
+  flex-basis: 20%;
+}
+
+.appsitem__description {
+  flex-basis: 80%;
+}
+
+.appsitem__description-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.appsitem__description-info > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-primary);
+}
+
+.appsitem__description-rating {
+  display: flex;
+  align-items: center;
+}
+
+.appsitem__description-rating svg {
+  color: #f0c42c;
+}
+
+.appsitem__description-rating > p {
+  color: #45a787;
+}
+
+.appsitem__description > p {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.appsitem__description .appsitem__description-developer > span {
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.appsitem__description-developer {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .appsitem {
+    flex-basis: 47%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .appsitem {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+}

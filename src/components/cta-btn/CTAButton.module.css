@@ -6,11 +6,12 @@
   border-radius: 10px;
   border: none;
   outline: none;
-  padding: 0.6rem 5rem;
+  padding: 0.8rem 4rem;
   cursor: pointer;
 }
 
 .ctaBtn p {
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 18px;
   line-height: 34px;
@@ -19,4 +20,20 @@
 
 .ctaBtn svg {
   font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .ctaBtn {
+    padding: 0.6rem 2rem;
+  }
+
+  .ctaBtn p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+  }
+
+  .ctaBtn svg {
+    font-size: 16px;
+  }
 }

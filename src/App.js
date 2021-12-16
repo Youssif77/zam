@@ -7,8 +7,8 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Apps />
       <Features />
+      <Apps />
       <Footer />
     </div>
   );

@@ -1,0 +1,124 @@
+.features {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.features__description {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features__title {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.features__subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0.6rem;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.features__item:last-child {
+  margin-bottom: 3rem;
+}
+
+.features__item-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.6rem;
+}
+
+.features__item p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.features__media {
+  width: 85%;
+  height: 28vw;
+  position: relative;
+}
+
+.features__media-ellipse {
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  bottom: -30%;
+  right: -5%;
+}
+
+.features__media-dots {
+  width: 25%;
+  position: absolute;
+  left: -2%;
+  top: -12%;
+  z-index: 1;
+}
+
+.features__media-video {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features__description,
+  .features__media {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .features__subtitle {
+    margin-bottom: 1rem;
+  }
+
+  .features__item {
+    align-self: flex-start;
+  }
+
+  .features__media-dots,
+  .features__media-ellipse {
+    display: none;
+  }
+
+  .features__media-video {
+    top: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features {
+    padding: 1rem 2rem;
+  }
+}

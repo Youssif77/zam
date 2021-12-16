@@ -1,0 +1,13 @@
+.appslist {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 4rem auto;
+  gap: 6%;
+}
+
+@media screen and (max-width: 1024px) {
+  .appslist {
+    flex-wrap: wrap;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import CTAButton from "../../components/header-btn/CTAButton";
+import CTAButton from "../../components/cta-btn/CTAButton";
 import { ellipse, dots, marketPlaceGIF } from "./imports";
 import classes from "./Header.module.css";
 
@@ -15,21 +15,17 @@ function Header() {
         أرباحك عبر إدارة عمليات متجرك بشكل فعال واحترافي
       </h3>
       <CTAButton />
-      <div className={classes["header__preview"]}>
+      <div className={classes["header__media"]}>
         <img
           src={ellipse}
           alt="yellow ellipse"
-          className={classes["header__preview-ellipse"]}
+          className={classes["header__media-ellipse"]}
         />
-        <img
-          src={dots}
-          alt="dots"
-          className={classes["header__preview-dots"]}
-        />
+        <img src={dots} alt="dots" className={classes["header__media-dots"]} />
         <img
           src={marketPlaceGIF}
           alt="market place"
-          className={classes["header__preview-video"]}
+          className={classes["header__media-video"]}
         />
       </div>
     </header>
